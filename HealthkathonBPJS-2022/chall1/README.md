@@ -1,6 +1,39 @@
 # SOAL 1
 # http://pentest.student.1337hackathon.id:81/
 
-![logo](https://lh3.googleusercontent.com/drive-viewer/AJc5JmRa7ywavvGkdAK5WatUiLGnnsE4f1vUYCxTED2J0rtt3yPD3Kp5yfVFh9J58I1C-Fs8lIxuoec=w1000)
+![logo](https://raw.githubusercontent.com/nopedawn/CTF/main/HealthkathonBPJS-2022/chall1/images/chall1_webpage.png)
 
 Diberikan sebuah soal nomor 1 berupa webpage berikut, setelah itu kami cari tahu view page sourcenya seperti berikut
+<img src="images/image1.png" width="600">
+
+Kemudian kami menemukan clue pada saat kami meng-inspect halamannya, yaitu berupa base64
+<img src="images/image2.png" width="600">
+
+Setelah kami decode hasilnya seperti berikut
+<img src="images/image3.png" width="600">
+
+Singkat cerita kami coba menggunakan <b>curl</b> dengan parameter <b>-v</b> untuk mencari informasi dari url-nya, dan kami menemukan potongan flag berupa Hexadecimal
+<img src="images/image4.png" width="600">
+
+Setelah itu kami coba decode dari format Hexadecimal to ASCII dengan tools <i>https://www.rapidtables.com/convert/number/hex-to-ascii.html</i>
+Didapatkanlah Flag <b>Part1</b> s/d <b>Part4</b> nya yaitu, <b>BPJS{Mel4y4ni_s3penuh_h4t!_m3l4mp4u1</b>
+Dan tinggal sisa <b>Part5</b> dari flagnya yaitu </b>%y?y=,#}</b>
+
+Sesuai dengan cluenya yaitu <i>“Decode part5 by using the XOR function with custom css number.”</i>
+Maka dari itu kami mencari script untuk memecahkan XOR function dengan custom css number dan menemukan script dari web berikut <i>https://crypto.stackexchange.com/questions/98727/how-can-i-decode-a-xor-cipher-with-a-string-key-i-know</i>
+
+Berikut script Python-nya
+```
+def decrypt(encrypted: bytes, key: bytes):
+    result = []
+    
+    for i in range(len(encrypted)):
+        result.append(encrypted[i] ^ key[i % len(key)])
+
+    return bytes(result)
+```
+
+Lalu kami jalankan dengan command <b>python3 -i xor_solver.py</b> dan didapatkanlah <b>Part5</b> dari Flagnya yaitu <b>h4r4pan</b>
+<img src="images/image5.png" width="600">
+
+<b>FLAG : BPJS{Mel4y4ni_s3penuh_h4t!_m3l4mp4u1_h4r4pan}</b>
