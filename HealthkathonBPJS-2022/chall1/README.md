@@ -9,15 +9,21 @@ Diberikan sebuah soal nomor 1 berupa webpage berikut, setelah itu kami cari tahu
 
 Kemudian kami menemukan clue pada saat kami meng-inspect halamannya, yaitu berupa base64
 ```
-RGVjb2RlIHBhcnQ1IGJ5IHVzaW5nIHRoZSBYT1IgZnVuY3Rpb24gd2l0aCBjdXN0b20gY3NzIG51bWJlci4
+RGVjb2RlIHBhcnQ1IGJ5IHVzaW5nIHRoZSBYT1IgZnVuY3Rpb24gd2l0aCBjdXN0b20gY3NzIG51bWJlci4=
 ```
 <img src="images/image2.png" width="800">
 
 Setelah kami decode hasilnya seperti berikut
+```bash
+$ echo 'RGVjb2RlIHBhcnQ1IGJ5IHVzaW5nIHRoZSBYT1IgZnVuY3Rpb24gd2l0aCBjdXN0b20gY3NzIG51bWJlci4=' | base64 --decode
+```
 
 <img src="images/image3.png" width="1000">
 
 Singkat cerita kami coba menggunakan <b><i>curl</i></b> dengan parameter <b><i>-v</i></b> untuk mencari informasi dari url-nya, dan kami menemukan potongan flag berupa Hexadecimal
+```bash
+$ curl -v http://pentest.student.1337hackathon.id:81/
+```
 
 <img src="images/image4.png" width="1000">
 
@@ -40,6 +46,13 @@ def decrypt(encrypted: bytes, key: bytes):
 ```
 
 Lalu kami jalankan dengan command <b><i>python3 -i xor_solver.py</i></b> dan didapatkanlah <b>Part5</b> dari Flagnya yaitu <b><i>h4r4pan</i></b>
+```bash
+$ python3 -i xor_solver.py
+>>> encrypted = b"%y?y=,#"
+>>> key = bytes([77])
+>>> decrypt(encrypted, key)
+```
+
 <img src="images/image5.png" width="300">
 
 <b>FLAG : BPJS{Mel4y4ni_s3penuh_h4t!_m3l4mp4u1_h4r4pan}</b>
