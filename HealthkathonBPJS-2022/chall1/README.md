@@ -8,7 +8,9 @@ Diberikan sebuah soal nomor 1 berupa webpage berikut, setelah itu kami cari tahu
 <img src="images/image1.png" width="800">
 
 Kemudian kami menemukan clue pada saat kami meng-inspect halamannya, yaitu berupa base64
-
+```
+RGVjb2RlIHBhcnQ1IGJ5IHVzaW5nIHRoZSBYT1IgZnVuY3Rpb24gd2l0aCBjdXN0b20gY3NzIG51bWJlci4
+```
 <img src="images/image2.png" width="800">
 
 Setelah kami decode hasilnya seperti berikut
@@ -27,7 +29,7 @@ Sesuai dengan cluenya yaitu <i>“Decode part5 by using the XOR function with cu
 Maka dari itu kami mencari script untuk memecahkan XOR function dengan custom css number dan menemukan script dari web berikut <i>https://crypto.stackexchange.com/questions/98727/how-can-i-decode-a-xor-cipher-with-a-string-key-i-know</i>
 
 Berikut script Python-nya
-```
+```python
 def decrypt(encrypted: bytes, key: bytes):
     result = []
     
