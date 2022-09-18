@@ -5,11 +5,11 @@
 
 Diberikan sebuah soal nomor 1 berupa webpage berikut, setelah itu kami cari tahu view page sourcenya seperti berikut
 
-<img src="images/image1.png" width="600">
+<img src="images/image1.png" width="800">
 
 Kemudian kami menemukan clue pada saat kami meng-inspect halamannya, yaitu berupa base64
 
-<img src="images/image2.png" width="600">
+<img src="images/image2.png" width="800">
 
 Setelah kami decode hasilnya seperti berikut
 
