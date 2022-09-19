@@ -29,7 +29,7 @@ $ curl -v http://pentest.student.1337hackathon.id:81/
 
 Setelah itu kami coba decode dari format Hexadecimal to ASCII dengan tools <i>https://www.rapidtables.com/convert/number/hex-to-ascii.html</i>
 Didapatkanlah Flag <b>Part1</b> s/d <b>Part4</b> nya yaitu, <b><i>BPJS{Mel4y4ni_s3penuh_h4t!_m3l4mp4u1</i></b>
-Dan tinggal sisa <b>Part5</b> dari flagnya yaitu </b><i>%y?y=,#}</i></b>
+dan tinggal sisa <b>Part5</b> dari flagnya yaitu </b><i>"%y?y=,#}"</i></b>
 
 Sesuai dengan cluenya yaitu <i>“Decode part5 by using the XOR function with custom css number.”</i>
 Maka dari itu kami mencari script untuk memecahkan XOR function dengan custom css number dan menemukan script dari web berikut <i>https://crypto.stackexchange.com/questions/98727/how-can-i-decode-a-xor-cipher-with-a-string-key-i-know</i>
