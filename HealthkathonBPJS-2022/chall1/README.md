@@ -8,7 +8,9 @@ Diberikan sebuah soal nomor 1 berupa webpage berikut, setelah itu kami cari tahu
 <img src="images/image1.png" width="800">
 
 Kemudian kami menemukan clue pada saat kami meng-inspect halamannya, yaitu berupa base64
-``` RGVjb2RlIHBhcnQ1IGJ5IHVzaW5nIHRoZSBYT1IgZnVuY3Rpb24gd2l0aCBjdXN0b20gY3NzIG51bWJlci4= ```
+```
+RGVjb2RlIHBhcnQ1IGJ5IHVzaW5nIHRoZSBYT1IgZnVuY3Rpb24gd2l0aCBjdXN0b20gY3NzIG51bWJlci4=
+```
 <img src="images/image2.png" width="800">
 
 Setelah kami decode hasilnya seperti berikut
@@ -26,7 +28,7 @@ $ curl -v http://pentest.student.1337hackathon.id:81/
 <img src="images/image4.png" width="1000">
 
 Setelah itu kami coba decode dari format Hexadecimal to ASCII dengan tools <i>https://www.rapidtables.com/convert/number/hex-to-ascii.html</i>
-Didapatkanlah Flag <b>Part1</b> s/d <b>Part4</b> nya yaitu, ```<b><i>BPJS{Mel4y4ni_s3penuh_h4t!_m3l4mp4u1</i></b>```
+Didapatkanlah Flag <b>Part1</b> s/d <b>Part4</b> nya yaitu, ```BPJS{Mel4y4ni_s3penuh_h4t!_m3l4mp4u1```
 dan tinggal sisa <b>Part5</b> dari flagnya yaitu ```%y?y=,#}```
 
 Sesuai dengan cluenya yaitu <i>“Decode part5 by using the XOR function with custom css number.”</i>
@@ -43,7 +45,7 @@ def decrypt(encrypted: bytes, key: bytes):
     return bytes(result)
 ```
 
-Lalu kami jalankan dengan command ```bash <b><i>python3 -i xor_solver.py</i></b> ``` dan didapatkanlah <b>Part5</b> dari Flagnya yaitu ```<b><i>h4r4pan</i></b>```
+Lalu kami jalankan dengan command ```python3 -i xor_solver.py``` dan didapatkanlah <b>Part5</b> dari Flagnya yaitu ```h4r4pan```
 ```bash
 $ python3 -i xor_solver.py
 >>> encrypted = b"%y?y=,#"
@@ -53,4 +55,4 @@ $ python3 -i xor_solver.py
 
 <img src="images/image5.png" width="300">
 
-```<b>FLAG : BPJS{Mel4y4ni_s3penuh_h4t!_m3l4mp4u1_h4r4pan}</b>```
+```FLAG : BPJS{Mel4y4ni_s3penuh_h4t!_m3l4mp4u1_h4r4pan}```
