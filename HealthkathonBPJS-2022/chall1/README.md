@@ -7,7 +7,7 @@ Diberikan sebuah soal nomor 1 berupa webpage berikut, setelah itu kami cari tahu
 
 <img src="images/image1.png" width="800">
 
-Kemudian kami menemukan clue pada saat kami meng-inspect halamannya, yaitu berupa base64
+Kemudian kami menemukan clue pada saat kami meng-inspect halamannya, yaitu berupa strings base64
 ```
 RGVjb2RlIHBhcnQ1IGJ5IHVzaW5nIHRoZSBYT1IgZnVuY3Rpb24gd2l0aCBjdXN0b20gY3NzIG51bWJlci4=
 ```
