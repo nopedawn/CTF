@@ -1,4 +1,4 @@
-# SOAL 1
+# CHALL 1
 ## http://pentest.student.1337hackathon.id:81/
 
 ![logo](https://raw.githubusercontent.com/nopedawn/CTF/main/HealthkathonBPJS-2022/chall1/images/chall1_webpage.png)
