@@ -6,8 +6,8 @@ Sumimasen, nihongo ga jouzu wa nai desu 😅
 I’m trying to translated into English
 <img src="../../img/4.jpg">
 
-It given an image <u>Attack_of_Tsukushi.jpg</u>
-<img src="Attack_of_Tsukushi.jpg">
+It given an image <i>Attack_of_Tsukushi.jpg</i>
+<img src="Attack_of_Tsukushi.jpg" width="400">
 
 I’m trying to find on Google by searching <b>Levi statue in Japan Station</b>
 And I found a website that give information of that statue, in <b>JR Hita Station</b>
