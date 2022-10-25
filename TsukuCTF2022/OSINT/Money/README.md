@@ -8,11 +8,11 @@ I need to find the Postal Code of that image place, so I search using Google Len
 Yeahh I gottem
 
 <br>
-The image that look similar it has in Shutterstock
+The image that look similar, it has in Shutterstock
 https://www.shutterstock.com/image-photo/people-throw-coin-stone-buddha-statue-1665495286
 <img src="../../img/9.jpg">
 
-I found another image that has name of that places, is The Kinkakuji's coin wish place
+I found another image that has name of that places, is <b>The Kinkakuji's coin wish place</b>
 https://www.shutterstock.com/image-photo/kinkakujis-coin-wish-place-1490425859
 <img src="../../img/10.jpg">
 
