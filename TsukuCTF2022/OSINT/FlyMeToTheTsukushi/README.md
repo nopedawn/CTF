@@ -6,7 +6,7 @@ It says
 <i>This question can only be flagged up to 10 times. *The format of the flag is TsukuCTF22{airport name}.</i>
 <i>Enter only the name of the airport. (For hoge airport, only hoge is the flag)</i>
 
-<img src="../../img/13.jpg">
+<img src="airport.jpeg" width="400">
 
 <img src="../../img/14.jpg">
 I just realize that has a word like <b>“TAKENOYA”</b>
@@ -18,8 +18,9 @@ And then I just search words <b>TAKENOYA</b> within <b>Airport</b> words, and fo
 <img src="../../img/16.jpg">
 
 Okay it’s <b>Takenoya Fukuoka Airport</b>, I’m trying to submit flag with that <b>fukuoka</b> name, and how unexpected.. the flag it’s correct :) yayy.
-<img src="../../img/17.jpg">
 https://www.fukuoka-airport.jp/en/shops/takenoya.html
+<img src="../../img/17.jpg">
+
 
 ## FLAG
 ```FLAG : TsukuCTF22{fukuoka}```
