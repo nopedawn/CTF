@@ -22,4 +22,4 @@ So I search that on Google Maps, and found the place https://goo.gl/maps/WgR3XXX
 The Postal Code is ```1 Kinkakujicho, Kita Ward, Kyoto, 603-8361, Japan```
 
 ## FLAG
-```FLAG : TsukuCTF22{603-8361}```
+```FLAG : TsukuCTF22{6038361}```
