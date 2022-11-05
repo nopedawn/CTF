@@ -20,4 +20,4 @@ $ afk brutal Team
 ### GITHUB
 |   Name    |   Category   |               Link                 |
 |-----------|--------------|------------------------------------|
-| Classroom | GITHUB       | 
+| Classroom | GITHUB       | https://github.com/nopedawn/CTF/blob/main/EKOPARTYCTF22/GITHUB |
