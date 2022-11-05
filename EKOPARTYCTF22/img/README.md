@@ -1,0 +1,1 @@
+cuma gambar buat writeup :)
