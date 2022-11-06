@@ -3,7 +3,7 @@
 
 <img src="../img/1.jpg">
 This challenge category is GITHUB, it the first chall is named <i>Classroom</i> we given a link <i>https://github.com/Octoversity-Admissions/Admissions-Test</i> 
-All we need to do is accessed the repository that has file named intro.py we need to run that then you got the output like this,
+All we need to do is accessed the repository that has file named <i><a href="https://github.com/Octoversity-Admissions/Admissions-Test/blob/main/intro.py">intro.py</a> </i> we need to run that then you got the output like this,
 <img src="../img/2.jpg" width="700">
 
 I assume that’s a link, there’s a random number, I thought it’s Hexadecimal value, and it’s right, 
