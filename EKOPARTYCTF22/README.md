@@ -21,3 +21,8 @@ $ afk brutal Team
 |   Name    |   Category   |               Link                 |
 |-----------|--------------|------------------------------------|
 | Classroom | GITHUB       | https://github.com/nopedawn/CTF/blob/main/EKOPARTYCTF22/GITHUB |
+
+### OSINT
+|   Name    |   Category   |               Link                 |
+|-----------|--------------|------------------------------------|
+| Square | OSINT       | https://github.com/nopedawn/CTF/tree/main/EKOPARTYCTF22/OSINT/Square |
