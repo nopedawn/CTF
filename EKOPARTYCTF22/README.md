@@ -26,3 +26,4 @@ $ afk brutal Team
 |   Name    |   Category   |               Link                 |
 |-----------|--------------|------------------------------------|
 | Square | OSINT       | https://github.com/nopedawn/CTF/tree/main/EKOPARTYCTF22/OSINT/Square |
+| Yankee | OSINT       | https://github.com/nopedawn/CTF/tree/main/EKOPARTYCTF22/OSINT/Yankee |
