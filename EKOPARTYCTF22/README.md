@@ -18,12 +18,17 @@ $ afk brutal Team
 ## CHALL'S
 
 ### GITHUB
-|   Name    |   Category   |               Link                 |
-|-----------|--------------|------------------------------------|
-| Classroom | GITHUB       | https://github.com/nopedawn/CTF/blob/main/EKOPARTYCTF22/GITHUB |
+| Name      | Category | Link                                                           |
+| --------- | -------- | -------------------------------------------------------------- |
+| Classroom | GITHUB   | https://github.com/nopedawn/CTF/blob/main/EKOPARTYCTF22/GITHUB |
 
 ### OSINT
-|   Name    |   Category   |               Link                 |
-|-----------|--------------|------------------------------------|
-| Square | OSINT       | https://github.com/nopedawn/CTF/tree/main/EKOPARTYCTF22/OSINT/Square |
-| Yankee | OSINT       | https://github.com/nopedawn/CTF/tree/main/EKOPARTYCTF22/OSINT/Yankee |
+| Name   | Category | Link                                                                 |
+| ------ | -------- | -------------------------------------------------------------------- |
+| Square | OSINT    | https://github.com/nopedawn/CTF/tree/main/EKOPARTYCTF22/OSINT/Square |
+| Yankee | OSINT    | https://github.com/nopedawn/CTF/tree/main/EKOPARTYCTF22/OSINT/Yankee |
+
+### METAVERSE
+| Name  | Category  | Link                                                                    |
+| ----- | --------- | ----------------------------------------------------------------------- |
+| Intro | METAVERSE | https://github.com/nopedawn/CTF/tree/main/EKOPARTYCTF22/METAVERSE/Intro |
