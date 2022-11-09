@@ -12,7 +12,7 @@ It just show blank page without any informations
 First thing first, the most common thing that every IT person does is identify the source of the web by Inspecting the elements of the website, it will look like this,
 <img src="../../img/18.jpg">
 
-I just identifying to other informations, but Hmm.. sus 🤔🧐 there are same .png file https://uploads-prod.reticulum.io/files/18fc3e04-89ea-4bdd-b669-96824311ca18.png
+I just identifying to other informations, but Hmm.. sus 🤔🧐 there are same `.png` file https://uploads-prod.reticulum.io/files/18fc3e04-89ea-4bdd-b669-96824311ca18.png
 <img src="../../img/19.jpg">
 
 And it’s a flag
