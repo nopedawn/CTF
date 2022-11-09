@@ -32,3 +32,8 @@ $ afk brutal Team
 | Name  | Category  | Link                                                                    |
 | ----- | --------- | ----------------------------------------------------------------------- |
 | Intro | METAVERSE | https://github.com/nopedawn/CTF/tree/main/EKOPARTYCTF22/METAVERSE/Intro |
+
+### BLOCKCHAIN
+| Name  | Category   | Link                                                                       |
+| ----- | ---------- | -------------------------------------------------------------------------- |
+| Intro | BLOCKCHAIN | https://github.com/nopedawn/CTF/tree/main/EKOPARTYCTF22/BLOCKCHAIN/Secrets |
