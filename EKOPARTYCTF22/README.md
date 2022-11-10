@@ -37,3 +37,4 @@ $ afk brutal Team
 | Name  | Category   | Link                                                                       |
 | ----- | ---------- | -------------------------------------------------------------------------- |
 | Secrets | BLOCKCHAIN | https://github.com/nopedawn/CTF/tree/main/EKOPARTYCTF22/BLOCKCHAIN/Secrets |
+| Call  | BLOCKCHAIN | https://github.com/nopedawn/CTF/tree/main/EKOPARTYCTF22/BLOCKCHAIN/Call    |
