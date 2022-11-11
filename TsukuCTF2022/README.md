@@ -1,4 +1,4 @@
-# Tsuku CTF 2022
+# TsukuCTF 2022
 ## https://tsukuctf.sechack365.com/
 
 <img src="https://fans.sechack365.com/images/tsukuctf-logo.png" width="500">
