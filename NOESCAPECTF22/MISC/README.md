@@ -3,11 +3,11 @@
 <br>
 
 ## Welcome to NECTF
-<img src="img/1.jpg" width="500">
+<img src="../img/1.jpg" width="500">
 
 Just inspect it <b>CTRL + SHIFT + I</b>
 
-<img src="img/2.jpg">
+<img src="../img/2.jpg">
 
 <details>
   <summary>FLAG :</summary>
