@@ -3,7 +3,7 @@
 <br>
 
 ## Welcome to NECTF
-<img src="../img/1.jpg" width="500">
+<img src="../img/1.jpg" width="400">
 
 Just inspect it <b>CTRL + SHIFT + I</b>
 
