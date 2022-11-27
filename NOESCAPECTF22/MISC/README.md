@@ -16,6 +16,7 @@ Just inspect it <b>CTRL + SHIFT + I</b>
 
 </details>
 
+<br>
 
 ## Bad Cake
 <img src="../img/3.jpg" width="400">
