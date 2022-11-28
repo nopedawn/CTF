@@ -25,3 +25,4 @@ $ afk brutal Team
 | ----------------- | -------- | ------------------------------------------------------------------------------- |
 | Welcome to NECTF  | MISC     | https://github.com/nopedawn/CTF/tree/main/NOESCAPECTF22/MISC/#welcome-to-nectf  |
 | Bad Cake          | MISC     | https://github.com/nopedawn/CTF/tree/main/NOESCAPECTF22/MISC/#bad-cake          |
+| Santa's Key       | MISC     | https://github.com/nopedawn/CTF/tree/main/NOESCAPECTF22/MISC/#santas-key        |
