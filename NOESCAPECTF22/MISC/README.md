@@ -62,3 +62,62 @@ We can use https://asciitohex.com to decoded Hex into ASCII
   `NECTF{TH1$_1$_Y0UR_GO0D_C@K3}`
 
 </details>
+
+
+<br>
+
+## Santa's Key
+<img src="../img/7.jpg" width="400">
+
+We given a python file named `incorrect.py`
+
+```python
+def str_xor(secret, key):
+    #extend key to secret length
+    new_key = key
+    i = 0
+    while len(new_key) < len(secret):
+      new_key = new_key + key[i]
+      i = (i + 1) % len(key)
+    a = []
+    for (secret_c,new_key_c) in zip(secret,new_key):
+        a.append(chr(ord(secret_c) ^ ord(new_key_c)))
+    return ''.join(a)
+
+flag_enc = 0x1d,0x24,0x2d,0x20,0x27,0x28,0x32,0x2e,0x1a,0x35,0x32,0x46,0x1d,0x2b,0xa,0x60,0x18,0x31,0x1c,0x52,0x21,0x52,0x13
+flag = str_xor(flag_enc, 'Santa')
+print('That is correct! Here\'s your flag: ' + flag)
+```
+
+After I execute that python file, we got an error message that we need to encrypt the Hexadecimal numbers. 
+
+<img src="../img/8.jpg">
+
+The solution is, We need to rewrite the code and changes some code, and here’s the result of code to get output like this
+
+<img src="../img/9.jpg">
+
+```python
+def str_xor(secret, key):
+    #extend key to secret length
+    new_key = key
+    i = 0
+    while len(new_key) < len(secret):
+      new_key = new_key + key[i]
+      i = (i + 1) % len(key)
+    a = []
+    for (secret_c,new_key_c) in zip(secret,new_key):
+        a.append(chr(ord(secret_c) ^ ord(new_key_c)))
+    return ''.join(a)
+
+flag_enc = chr(0x1d)+chr(0x24)+chr(0x2d)+chr(0x20)+chr(0x27)+chr(0x28)+chr(0x32)+chr(0x2e)+chr(0x1a)+chr(0x35)+chr(0x32)+chr(0x46)+chr(0x1d)+chr(0x2b)+chr(0xa,)+chr(0x60)+chr(0x18)+chr(0x31)+chr(0x1c)+chr(0x52)+chr(0x21)+chr(0x52)+chr(0x13)
+flag = str_xor(flag_enc, 'Santa')
+print('That is correct! Here\'s your flag: ' + flag)
+```
+
+<details>
+  <summary>FLAG :</summary>
+  
+  `NECTF{S@nTa's_k3y_h3r3}`
+
+</details>
