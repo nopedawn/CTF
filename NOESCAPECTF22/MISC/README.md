@@ -128,8 +128,12 @@ print('That is correct! Here\'s your flag: ' + flag)
 ## Star of Bethlehem
 <img src="../img/10.jpg" width="400">
 
-All we need to do it’s just check the list of strings of that `ELF Shared Library` file , 
+All we need to do it’s just check the list of strings of that BrightStar `ELF Shared Library` file , 
 using `strings` command to solve this chall. Then we can found the flag
+
+```bash
+$ strings BrightStar
+```
 
 <img src="../img/11.jpg">
 
