@@ -121,3 +121,23 @@ print('That is correct! Here\'s your flag: ' + flag)
   `NECTF{S@nTa's_k3y_h3r3}`
 
 </details>
+
+
+<br>
+
+## Star of Bethlehem
+<img src="../img/10.jpg" width="400">
+
+All we need to do it’s just check the list of strings of that `ELF Shared Library` file , 
+using `strings` command to solve this chall. Then we can found the flag
+
+<img src="../img/11.jpg">
+
+Got ya.. flag!!
+
+<details>
+  <summary>FLAG :</summary>
+  
+  `NECTF{STaR_Of_BeTheLeHeM} `
+
+</details>
