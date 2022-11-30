@@ -27,3 +27,9 @@ $ afk brutal Team
 | Bad Cake          | MISC     | https://github.com/nopedawn/CTF/tree/main/NOESCAPECTF22/MISC/#bad-cake          |
 | Santa's Key       | MISC     | https://github.com/nopedawn/CTF/tree/main/NOESCAPECTF22/MISC/#santas-key        |
 | Star of Bethlehem | MISC     | https://github.com/nopedawn/CTF/tree/main/NOESCAPECTF22/MISC/#star-of-bethlehem |
+
+### GITHUB
+
+| Name          | Category | Link                                                                          |
+| ------------- | -------- | ----------------------------------------------------------------------------- |
+| Entrance Exam | GITHUB   | https://github.com/nopedawn/CTF/blob/main/NOESCAPECTF22/GITHUB/#entrance-exam |
