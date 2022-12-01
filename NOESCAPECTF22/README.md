@@ -33,3 +33,9 @@ $ afk brutal Team
 | Name          | Category | Link                                                                          |
 | ------------- | -------- | ----------------------------------------------------------------------------- |
 | Entrance Exam | GITHUB   | https://github.com/nopedawn/CTF/blob/main/NOESCAPECTF22/GITHUB/#entrance-exam |
+
+### FORENSICS
+
+| Name        | Category  | Link                                                                 |
+| ----------- | --------- | -------------------------------------------------------------------- |
+| X-mas Carol | FORENSICS | https://github.com/nopedawn/CTF/blob/main/NOESCAPECTF22/FORENSICS/#x-mas-carol |
