@@ -39,3 +39,9 @@ $ afk brutal Team
 | Name        | Category  | Link                                                                 |
 | ----------- | --------- | -------------------------------------------------------------------- |
 | X-mas Carol | FORENSICS | https://github.com/nopedawn/CTF/blob/main/NOESCAPECTF22/FORENSICS/#x-mas-carol |
+
+### PWN
+
+| Name           | Category | Link                                                                        |
+| -------------- | -------- | --------------------------------------------------------------------------- |
+| The Real Santa | PWN      | https://github.com/nopedawn/CTF/blob/main/NOESCAPECTF22/PWN/#the-real-santa |
