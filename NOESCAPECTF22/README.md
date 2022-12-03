@@ -45,3 +45,9 @@ $ afk brutal Team
 | Name           | Category | Link                                                                        |
 | -------------- | -------- | --------------------------------------------------------------------------- |
 | The Real Santa | PWN      | https://github.com/nopedawn/CTF/blob/main/NOESCAPECTF22/PWN/#the-real-santa |
+
+### OSINT
+
+| Name         | Category | Link                                                                        |
+| ------------ | -------- | --------------------------------------------------------------------------- |
+| X-mas Castle | OSINT    | https://github.com/nopedawn/CTF/tree/main/NOESCAPECTF22/OSINT/#x-mas-castle |
