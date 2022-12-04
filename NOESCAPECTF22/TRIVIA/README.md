@@ -1,4 +1,4 @@
-# OSINT
+# TRIVIA
 
 <br>
 
