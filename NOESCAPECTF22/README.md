@@ -51,3 +51,9 @@ $ afk brutal Team
 | Name         | Category | Link                                                                        |
 | ------------ | -------- | --------------------------------------------------------------------------- |
 | X-mas Castle | OSINT    | https://github.com/nopedawn/CTF/tree/main/NOESCAPECTF22/OSINT/#x-mas-castle |
+
+### TRIVIA
+
+| Name         | Category | Link                                                                         |
+| ------------ | -------- | ---------------------------------------------------------------------------- |
+| Smart Brains | TRIVIA   | https://github.com/nopedawn/CTF/tree/main/NOESCAPECTF22/TRIVIA/#smart-brains |
