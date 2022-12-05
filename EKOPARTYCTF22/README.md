@@ -1,5 +1,5 @@
 # EKOPARTY CTF 2022
-## https://ctf.ekoparty.org/
+## https://ctftime.org/event/1790
 
 <br>
 <p align="center">
