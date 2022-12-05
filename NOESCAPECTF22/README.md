@@ -1,6 +1,5 @@
 # NOESCAPE CTF 2022
-
-## https://noescape.live/challenges
+## https://ctftime.org/event/1822
 
 <br>
 <p align="center">
