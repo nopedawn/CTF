@@ -1,7 +1,9 @@
 # TsukuCTF 2022
-## https://tsukuctf.sechack365.com/
+## https://ctftime.org/event/1753
 
-<img src="https://fans.sechack365.com/images/tsukuctf-logo.png" width="500">
+<a href="https://tsukuctf.sechack365.com/" target="_blank">
+  <img src="https://fans.sechack365.com/images/tsukuctf-logo.png" width="500">
+</a>
 
 | Name               | Category | Link                                                                                |
 | -------------------| -------- | ------------------------------------------------------------------------------------|
