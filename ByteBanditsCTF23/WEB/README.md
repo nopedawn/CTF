@@ -1,6 +1,14 @@
 # WEB
 
 ## Hi-Score
+
+<details>
+  <summary>Descryption :</summary>
+  
+  > Reach 100 clicks per second for a reward.
+
+</details>
+
 - Given the website for this challenge http://web.bbctf.fluxus.co.in:1003 
 
 - Inscpect the JS file, which named is `TheScript.js`
@@ -131,6 +139,6 @@ $ python3
 <details>
   <summary>FLAG :</summary>
   
-  `flag{THAtS_15_A_SM4rT_m0ve}`
+  > `flag{THAtS_15_A_SM4rT_m0ve}`
 
 </details>
