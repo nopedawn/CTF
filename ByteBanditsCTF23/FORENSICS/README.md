@@ -9,11 +9,21 @@
   
 </details>
 
-- Given the image file [Empty_Space.jpg](./Empty_Space.jpg), first You can get the password by checking the metadata by using `Exiftool`, here's the password `xp_comment: The password is "BBCTF"`
+Given the image file [Empty_Space.jpg](./Empty_Space.jpg), first You can get the password by checking the metadata by using `Exiftool`, 
 
-- Use [steghide](https://www.kali.org/tools/steghide/) to extract the embedded text file and enter passphrase as the password you got from exifdata `steghide extract -sf Empty_Space.jpg`
+```bash
+$ exiftool Empty_Space.jpg
+```
 
-- Got the [somedata.txt](./somedata.txt), then make a script to convert those numbers from `somedata.txt` into an image, here's the python3 script
+here's the password `xp_comment: The password is "BBCTF"`
+
+Use [steghide](https://www.kali.org/tools/steghide/) to extract the embedded text file and enter passphrase as the password you got from exifdata 
+
+```bash
+$ steghide extract -sf Empty_Space.jpg
+```
+
+Got the [somedata.txt](./somedata.txt), then make a script to convert those numbers from `somedata.txt` into an image, here's the python3 script
 
 ```python
 from PIL import Image
@@ -42,7 +52,7 @@ image = image.resize((500,500), Image.NEAREST)
 image.save("output.png")
 ```
 
-- Got the result in qr code [output.png](output.png) then scan it
+Got the result in qr code [output.png](output.png) then scan it
 
 <details>
   <summary>FLAG :</summary>
