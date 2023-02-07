@@ -3,7 +3,7 @@
 ## Hi-Score
 
 <details>
-  <summary>Descryption :</summary>
+  <summary>Description :</summary>
   
   > Reach 100 clicks per second for a reward.
 
