@@ -15,6 +15,12 @@
 
 ### WEB
 
-| Name              | Category | Link                                                                            |
-| ----------------- | -------- | ------------------------------------------------------------------------------- |
-| Hi-Score          |  WEB     | https://github.com/nopedawn/CTF/tree/main/ByteBanditsCTF23/WEB/#hi-score        |
+| Category  | Challenge |
+| --------- | --------- |
+| WEB       | [Hi-Score](https://github.com/nopedawn/CTF/tree/main/ByteBanditsCTF23/WEB/#hi-score)
+
+### FORENSICS
+
+| Category  | Challenge |
+| --------- | --------- |
+| FORENSICS | [Vastness of Space](https://github.com/nopedawn/CTF/tree/main/ByteBanditsCTF23/FORENSICS/#vastness-of-space)
