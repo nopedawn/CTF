@@ -9,7 +9,7 @@
   
 </details>
 
-Given the image file [Empty_Space.jpg](./Empty_Space.jpg), first You can get the password by checking the metadata by using `Exiftool`, 
+Given the image file [Empty_Space.jpg](./Empty_Space.jpg) first You can get the password by checking the metadata by using `Exiftool`
 
 ```bash
 $ exiftool Empty_Space.jpg
@@ -23,7 +23,7 @@ Use [steghide](https://www.kali.org/tools/steghide/) to extract the embedded tex
 $ steghide extract -sf Empty_Space.jpg
 ```
 
-Got the [somedata.txt](./somedata.txt), then make a script to convert those numbers from `somedata.txt` into an image, here's the python3 script
+Got the [somedata.txt](./somedata.txt) then make a script to convert those numbers from `somedata.txt` into an image, here's the python3 script that I've coded
 
 ```python
 from PIL import Image
