@@ -60,3 +60,65 @@ Got the result in qr code [output.png](output.png) then scan it
   > `flag{qUiCk_R3sP0nse_c0d3}`
   
 </details>
+<br>
+
+## Random Requests
+
+<details>
+  <summary>Description :</summary>
+  
+  > I captured these very random http requests. Can you help me decode them? <br>
+  > [random_requests.pcapng](./random_requests.pcapng)
+  
+</details>
+
+Using the protocol layer statistics to understand the types of recorded packets and looking at them in various ways, you can see `http && ip.src_host == 142.250.67.132` characteristic requests.
+`GET /flag=0` or `1` or `%20` is recorded after.
+
+If you take them all in chronological order and change `%20` to a line break instead of a blank, it looks like the base64 encoded in 8 byte binary representation.
+
+```bash
+$ python3
+>>> chr(int('01011010', 2))
+'Z'
+>>> chr(int('01101101', 2))
+'m'
+>>> chr(int('01111000', 2))
+'x'
+```
+
+We need to extract that binary representated with this script, then save into file text
+
+```python
+#!/usr/bin/env python3
+from scapy.all import *
+from base64 import *
+
+packets = rdpcap("random_requests.pcapng")
+
+binary_output = ""
+
+for packet in packets:
+    if packet[IP].dst == "142.250.67.132" and packet.haslayer(Raw):
+        binary_output += packet[Raw].load.split(b" ")[1].decode().split("=")[1]
+
+output = binary_output.replace("%20", " ")
+
+with open("output.txt", "w") as file:
+    file.write(output)
+```
+
+Convert with [CyberChef](https://gchq.github.io/CyberChef/#recipe=From_Binary('Space',8)From_Base64('A-Za-z0-9%2B/%3D',true,false)&input=MDEwMTEwMTAKMDExMDExMDEKMDExMTEwMDAKMDExMDEwMDAKMDEwMTEwMTAKMDAxMTAwMTEKMDExMTAxMDAKMDExMTAxMDEKMDEwMTAxMDAKMDAxMTAwMDEKMDEwMTAwMTAKMDExMDAxMTAKMDEwMTAxMDEKMDAxMTAwMTAKMDAxMTEwMDEKMDExMDAxMTAKMDExMDAwMTEKMDExMDEwMTAKMDEwMTAwMTAKMDExMTAxMDEKMDEwMTEwMTAKMDEwMDAxMTEKMDAxMTEwMDEKMDExMTAxMDAKMDEwMTEwMDAKMDAxMTAwMTAKMDExMDAxMTEKMDAxMTAwMTEKMDEwMDExMTAKMDAxMTAwMTEKMDEwMDAwMTAKMDExMDAxMTAKMDExMDAwMTEKMDExMDEwMTAKMDEwMDExMTAKMDExMTEwMDAKMDExMDAxMDAKMDEwMTAxMDAKMDEwMDExMDEKMDAxMTAwMDEKMDExMDAxMDAKMDEwMDEwMDAKMDEwMDExMTAKMDAxMTEwMDE). If you use [CyberChef's Magic](https://gchq.github.io/CyberChef/#recipe=Magic(3,false,false,'')&input=MDEwMTEwMTAKMDExMDExMDEKMDExMTEwMDAKMDExMDEwMDAKMDEwMTEwMTAKMDAxMTAwMTEKMDExMTAxMDAKMDExMTAxMDEKMDEwMTAxMDAKMDAxMTAwMDEKMDEwMTAwMTAKMDExMDAxMTAKMDEwMTAxMDEKMDAxMTAwMTAKMDAxMTEwMDEKMDExMDAxMTAKMDExMDAwMTEKMDExMDEwMTAKMDEwMTAwMTAKMDExMTAxMDEKMDEwMTEwMTAKMDEwMDAxMTEKMDAxMTEwMDEKMDExMTAxMDAKMDEwMTEwMDAKMDAxMTAwMTAKMDExMDAxMTEKMDAxMTAwMTEKMDEwMDExMTAKMDAxMTAwMTEKMDEwMDAwMTAKMDExMDAxMTAKMDExMDAwMTEKMDExMDEwMTAKMDEwMDExMTAKMDExMTEwMDAKMDExMDAxMDAKMDEwMTAxMDAKMDEwMDExMDEKMDAxMTAwMDEKMDExMDAxMDAKMDEwMDEwMDAKMDEwMDExMTAKMDAxMTEwMDE) roughly it's base64 , so if you add it a flag will appear. From Binary & From Base64, `ZmxhZ3tuT1RfU29fcjRuZG9tX2g3N3BfcjNxdTM1dHN9`
+
+```bash
+$ echo 'ZmxhZ3tuT1RfU29fcjRuZG9tX2g3N3BfcjNxdTM1dHN9' | base64 -d
+$ flag{nOT_So_r4ndom_h77p_r3qu35ts}
+```
+
+<details>
+  <summary>FLAG :</summary>
+  
+  > `flag{nOT_So_r4ndom_h77p_r3qu35ts}`
+  
+</details>
+<br>
