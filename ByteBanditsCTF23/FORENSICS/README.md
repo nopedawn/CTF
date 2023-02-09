@@ -1,4 +1,5 @@
 # FORENSICS
+<br>
 
 ## Vastness of Space
 
@@ -112,13 +113,99 @@ Convert with [CyberChef](https://gchq.github.io/CyberChef/#recipe=From_Binary('S
 
 ```bash
 $ echo 'ZmxhZ3tuT1RfU29fcjRuZG9tX2g3N3BfcjNxdTM1dHN9' | base64 -d
-$ flag{nOT_So_r4ndom_h77p_r3qu35ts}
+flag{nOT_So_r4ndom_h77p_r3qu35ts}
 ```
 
 <details>
   <summary>FLAG :</summary>
   
   > `flag{nOT_So_r4ndom_h77p_r3qu35ts}`
+  
+</details>
+<br>
+
+
+## Memory Dump
+
+<details>
+  <summary>Description :</summary>
+  
+  > I was learning powershell when my pc suddenly crashed. Can you retrieve my bash history? <br>
+  > [Download link](https://drive.google.com/drive/folders/1igAY42dIA-xrGMLH5_NVdq5nisVG4YLa?usp=share_link)
+  
+</details>
+
+Given an memory image file named `Memdump.raw`, at the first i was using Volatility 2 but when I check the `imageinfo` to retrieve profile the suggested profile cannot appeared,
+
+Then I switch to Volatility 3, this memory image file can be able to analyze using [Volatility 3](https://www.volatilityfoundation.org/releases-vol3)
+
+Now check with `windows.info` to get an information of memory file
+
+```bash
+$ vol -f Memdump.raw windows.info
+Volatility 3 Framework 2.4.1
+Progress:  100.00               PDB scanning finished
+Variable        Value
+
+Kernel Base     0xf8025ea03000
+DTB     0x1aa000
+Symbols file:///home/nopedawn/.local/lib/python3.10/site-packages/volatility3/symbols/windows/ntkrnlmp.pdb/68A17FAF3012B7846079AEECDBE0A583-1.json.xz
+Is64Bit True
+IsPAE   False
+layer_name      0 WindowsIntel32e
+memory_layer    1 FileLayer
+KdVersionBlock  0xf8025f612398
+Major/Minor     15.19041
+MachineType     34404
+KeNumberProcessors      1
+SystemTime      2022-12-16 10:41:11
+NtSystemRoot    C:\Windows
+NtProductType   NtProductWinNt
+NtMajorVersion  10
+NtMinorVersion  0
+PE MajorOperatingSystemVersion  10
+PE MinorOperatingSystemVersion  0
+PE Machine      34404
+PE TimeDateStamp        Wed Jun 28 04:14:26 1995
+```
+
+To get an information process tree of Powershell
+
+```bash
+$ vol -f Memdump.raw windows.pstree
+*** 1324        2104    powershell.exe  0xc88f237da080  9       -       1       False   2022-12-16 10:36:27.000000      N/A
+```
+
+According to the description of the challenge to find commands executed in Powershell. After some googling, found that the powershell history is stored in a `.txt` file, which specifically in `ConsoleHost_history.txt`
+
+```bash
+$ vol -f Memdump.raw windows.filescan | grep "ConsoleHost_history.txt"
+0xc88f21961af0.0\Users\bbctf\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt    216
+```
+
+After we get the Offset (virtaddr), we can retrieve the `ConsoleHost_history.txt` file with `windows.dumpfiles`
+
+```bash
+$ vol -f Memdump.raw windows.dumpfiles --pid 1324 --virtaddr 0xc88f21961af0
+```
+
+After extracting, rename the file to make it easier to read, then cat the file
+
+```bash
+$ mv file.0xc88f21961af0.0xc88f1e9b5570.DataSectionObject.ConsoleHost_history.txt.dat ConsoleHost_history.txt
+$ cat ConsoleHost_history.txt
+> $xorkey = bbctf
+> $xorkey = "bbctf"
+> $aescipherkey = "ByteBandits-CTF Jan 2023"
+> $encrypted_flag = "m74/XKCNkHmzJHEPAOHvegV96AOubRnSUQBpJnG4tHg="
+```
+
+We must decode the encrypted flag using base64 and then decrypt it using AES ECB mode with the AES cipher key. To obtain the flag we can use CyberChef, and here's the [result](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true,false)AES_Decrypt(%7B'option':'UTF8','string':'ByteBandits-CTF%20Jan%202023'%7D,%7B'option':'UTF8','string':''%7D,'ECB','Raw','Raw',%7B'option':'Hex','string':''%7D,%7B'option':'Hex','string':''%7D)&input=bTc0L1hLQ05rSG16SkhFUEFPSHZlZ1Y5NkFPdWJSblNVUUJwSm5HNHRIZz0)
+
+<details>
+  <summary>FLAG :</summary>
+  
+  > `flag{V0L@tiLiTy_4_da_w1N}`
   
 </details>
 <br>
