@@ -20,4 +20,6 @@ https://ctftime.org/event/1877
 | FORENSICS | [Memory Dump](https://github.com/nopedawn/CTF/tree/main/ByteBanditsCTF23/FORENSICS/#memory-dump)
 
 ## CHALL'S UNSOLVED
+| Category  | Challenge |
+| --------- | --------- |
 | FORENSICS | [ImageCeption](https://github.com/nopedawn/CTF/tree/main/ByteBanditsCTF23/FORENSICS/#imageception)
