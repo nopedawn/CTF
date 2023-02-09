@@ -222,7 +222,7 @@ We must decode the encrypted flag using base64 and then decrypt it using AES ECB
 <details>
   <summary>Description :</summary>
   
-  > Desc: "The painter has the universe in his mind and hands." <br>
+  > "The painter has the universe in his mind and hands." <br>
   > -Leonardo Da Vinci <br>
   > [Download link](https://drive.google.com/drive/folders/1mkC2FP3NHUwANaz2f_ie-pha7L4PtACm?usp=share_link)
   
