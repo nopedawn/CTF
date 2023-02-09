@@ -18,3 +18,6 @@ https://ctftime.org/event/1877
 | FORENSICS | [Vastness of Space](https://github.com/nopedawn/CTF/tree/main/ByteBanditsCTF23/FORENSICS/#vastness-of-space)
 | FORENSICS | [Random Requests](https://github.com/nopedawn/CTF/tree/main/ByteBanditsCTF23/FORENSICS/#random-requests)
 | FORENSICS | [Memory Dump](https://github.com/nopedawn/CTF/tree/main/ByteBanditsCTF23/FORENSICS/#memory-dump)
+
+## CHALL'S UNSOLVED
+| FORENSICS | [ImageCeption](https://github.com/nopedawn/CTF/tree/main/ByteBanditsCTF23/FORENSICS/#imageception)
