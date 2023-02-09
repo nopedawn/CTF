@@ -215,3 +215,94 @@ We must decode the encrypted flag using base64 and then decrypt it using AES ECB
   
 </details>
 <br>
+
+
+## ImageCeption
+
+<details>
+  <summary>Description :</summary>
+  
+  > Desc: "The painter has the universe in his mind and hands."
+  > -Leonardo Da Vinci
+  > [Download link](https://drive.google.com/drive/folders/1mkC2FP3NHUwANaz2f_ie-pha7L4PtACm?usp=share_link)
+  
+</details>
+
+Given the memory image of named `imageception.raw`, and I will use Volatility 3 to analysis memory image,
+
+We check the image info with `windows.info` first, it looks like a Windows 10 memory dump. 
+```bash
+$ vol -f imageception.raw windows.info
+Volatility 3 Framework 2.4.1
+Progress:  100.00               PDB scanning finished
+Variable        Value
+
+Kernel Base     0xf80778a18000
+DTB     0x1aa000
+Symbols file:///home/nopedawn/.local/lib/python3.10/site-packages/volatility3/symbols/windows/ntkrnlmp.pdb/68A17FAF3012B7846079AEECDBE0A583-1.json.xz
+Is64Bit True
+IsPAE   False
+layer_name      0 WindowsIntel32e
+memory_layer    1 FileLayer
+KdVersionBlock  0xf80779627398
+Major/Minor     15.19041
+MachineType     34404
+KeNumberProcessors      1
+SystemTime      2022-12-16 08:28:29
+NtSystemRoot    C:\Windows
+NtProductType   NtProductWinNt
+NtMajorVersion  10
+NtMinorVersion  0
+PE MajorOperatingSystemVersion  10
+PE MinorOperatingSystemVersion  0
+PE Machine      34404
+PE TimeDateStamp        Wed Jun 28 04:14:26 1995
+```
+
+If we take a look `windows.pstree` there's a process `mspaint.exe` are running, by the challenge description let's just check that process
+
+```bash
+$ vol -f imageception.raw windows.pstree
+Volatility 3 Framework 2.4.1
+Progress:  100.00               PDB scanning finished
+PID     PPID    ImageFileName   Offset(V)       Threads Handles SessionId       Wow64   CreateTime      ExitTime
+*** 4448        3044    mspaint.exe     0xa08f6e45b080  8       -       1       False   2022-12-16 08:27:45.000000      N/A
+```
+
+Then I run `windows.cmdline` to check lists process command line arguments. And there's an `imageception.png` is opened with `mspaint.exe` process
+```bash
+$ vol -f imageception.raw windows.cmdline`, 
+Volatility 3 Framework 2.4.1
+Progress:  100.00               PDB scanning finished
+PID     Process Args
+4448 mspaint.exe "C:\Windows\system32\mspaint.exe" "C:\Users\bbctf\Desktop\imageception.png"
+```
+
+Catch the Offset (virtaddr) to retrive that `imageception.png` file with `windows.filescan` to scans for file objects present in a particular windows memory image.
+```bash
+$ vol -f imageception.raw windows.filescan | grep png
+0xa08f6ca23200.0\Users\bbctf\Desktop\imageception.png   216
+```
+
+Got the Offset (virtaddr) `0xa08f6ca23200` of `imageception.png` now dump the file
+```bash
+$ vol -f imageception.raw windows.dumpfiles --pid 4448 --virtaddr 0xa08f6ca23200
+Volatility 3 Framework 2.4.1
+Progress:  100.00               PDB scanning finished
+Cache   FileObject      FileName        Result
+
+DataSectionObject       0xa08f6ca23200  imageception.png        Error dumping file
+```
+
+Got the dump result in `.dat` file just change into `.png` extension, and we got the flag [imageception.png](./imageception.png)
+```bash
+$ mv file.0xa08f6ca23200.0xa08f6c9d1350.DataSectionObject.imageception.png.dat imageception.png
+```
+
+<details>
+  <summary>FLAG :</summary>
+  
+  > `flag{!m@g3_w1tHin_1M4ge}`
+  
+</details>
+<br>
