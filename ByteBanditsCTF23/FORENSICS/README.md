@@ -6,11 +6,12 @@
 <details>
   <summary>Description :</summary>
   
-  > Is space really that empty?
+  > Is space really that empty? <br>
+  > [Empty_Space.jpg](./Empty_Space.jpg)
   
 </details>
 
-Given the image file [Empty_Space.jpg](./Empty_Space.jpg) first You can get the password by checking the metadata by using `Exiftool`
+Given the image file `Empty_Space.jpg` first You can get the password by checking the metadata by using `Exiftool`
 
 ```bash
 $ exiftool Empty_Space.jpg
@@ -187,6 +188,11 @@ After we get the Offset (virtaddr), we can retrieve the `ConsoleHost_history.txt
 
 ```bash
 $ vol -f Memdump.raw windows.dumpfiles --pid 1324 --virtaddr 0xc88f21961af0
+Volatility 3 Framework 2.4.1
+Progress:  100.00               PDB scanning finished
+Cache   FileObject      FileName        Result
+
+DataSectionObject       0xc88f21961af0  ConsoleHost_history.txt file.0xc88f21961af0.0xc88f1e9b5570.DataSectionObject.ConsoleHost_history.txt.dat
 ```
 
 After extracting, rename the file to make it easier to read, then cat the file
