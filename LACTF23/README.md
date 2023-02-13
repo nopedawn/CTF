@@ -14,5 +14,5 @@ https://ctftime.org/event/1732
 
 | Category     | Challenge |
 | ------------ | --------- |
-| CRYPTOGRAPHY | [one-more-time-pad](https://github.com/nopedawn/CTF/tree/main/LACTF23/one-more-time-pad/#one-more-time-pad)
-| WEB          | [college-tour](https://github.com/nopedawn/CTF/tree/main/LACTF23/college-tour/#college-tour)
+| CRYPTOGRAPHY | [one-more-time-pad](https://github.com/nopedawn/CTF/tree/main/LACTF23/one-more-time-pad/#cryptoone-more-time-pad)
+| WEB          | [college-tour](https://github.com/nopedawn/CTF/tree/main/LACTF23/college-tour/#webcollege-tour)
