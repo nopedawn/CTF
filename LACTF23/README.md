@@ -14,4 +14,4 @@ https://ctftime.org/event/1732
 
 | Category     | Challenge |
 | ------------ | --------- |
-| CRYPTOGRAPHY | [one-more-time-pad](https://github.com/nopedawn/CTF/tree/main/LACTF23/CRYPTO/#one-more-time-pad)
+| CRYPTOGRAPHY | [one-more-time-pad](https://github.com/nopedawn/CTF/tree/main/LACTF23/one-more-time-pad)
