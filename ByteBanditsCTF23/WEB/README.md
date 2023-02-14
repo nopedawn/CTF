@@ -14,7 +14,7 @@
 - Inscpect the JS file, which named is `TheScript.js`
 
 <details>
-  <summary><a href="./TheScript.js">TheScript.js</summary>
+  <summary><a href="./hi-score/TheScript.js">TheScript.js</summary>
   
 ```javascript
 (function (_0x52c9b1, _0x4f9b4c) {
