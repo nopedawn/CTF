@@ -14,12 +14,12 @@ https://ctftime.org/event/1877
 
 | Category  | Challenge |
 | --------- | --------- |
-| WEB       | [Hi-Score](https://github.com/nopedawn/CTF/tree/main/ByteBanditsCTF23/WEB/hi-score/#hi-score)
-| FORENSICS | [Vastness of Space](https://github.com/nopedawn/CTF/tree/main/ByteBanditsCTF23/FORENSICS/vastness_of_space/#vastness-of-space)
-| FORENSICS | [Random Requests](https://github.com/nopedawn/CTF/tree/main/ByteBanditsCTF23/FORENSICS/random_requests/#random-requests)
-| FORENSICS | [Memory Dump](https://github.com/nopedawn/CTF/tree/main/ByteBanditsCTF23/FORENSICS/memory_dump/#memory-dump)
+| WEB       | [Hi-Score](https://github.com/nopedawn/CTF/tree/main/ByteBanditsCTF23/WEB/#hi-score)
+| FORENSICS | [Vastness of Space](https://github.com/nopedawn/CTF/tree/main/ByteBanditsCTF23/FORENSICS/#vastness-of-space)
+| FORENSICS | [Random Requests](https://github.com/nopedawn/CTF/tree/main/ByteBanditsCTF23/FORENSICS/#random-requests)
+| FORENSICS | [Memory Dump](https://github.com/nopedawn/CTF/tree/main/ByteBanditsCTF23/FORENSICS/#memory-dump)
 
 ## CHALL'S UNSOLVED
 | Category  | Challenge |
 | --------- | --------- |
-| FORENSICS | [ImageCeption](https://github.com/nopedawn/CTF/tree/main/ByteBanditsCTF23/FORENSICS/imageception/#imageception)
+| FORENSICS | [ImageCeption](https://github.com/nopedawn/CTF/tree/main/ByteBanditsCTF23/FORENSICS/#imageception)
