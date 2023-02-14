@@ -7,7 +7,7 @@
   <summary>Description :</summary>
   
   > Is space really that empty? <br>
-  > [Empty_Space.jpg](./Empty_Space.jpg)
+  > [Empty_Space.jpg](./vastness_of_space/Empty_Space.jpg)
   
 </details>
 
@@ -25,7 +25,7 @@ Use [steghide](https://www.kali.org/tools/steghide/) to extract the embedded tex
 $ steghide extract -sf Empty_Space.jpg
 ```
 
-Got the [somedata.txt](./somedata.txt) then make a script to convert those numbers from `somedata.txt` into an image, here's the python3 script that I've coded
+Got the [somedata.txt](./vastness_of_space/somedata.txt) then make a script to convert those numbers from `somedata.txt` into an image, here's the python3 script that I've coded
 
 ```python
 from PIL import Image
@@ -54,7 +54,7 @@ image = image.resize((500,500), Image.NEAREST)
 image.save("output.png")
 ```
 
-Got the result in qr code [output.png](output.png) then scan it
+Got the result in qr code [output.png](./vastness_of_space/output.png) then scan it
 
 <details>
   <summary>FLAG :</summary>
@@ -70,7 +70,7 @@ Got the result in qr code [output.png](output.png) then scan it
   <summary>Description :</summary>
   
   > I captured these very random http requests. Can you help me decode them? <br>
-  > [random_requests.pcapng](./random_requests.pcapng)
+  > [random_requests.pcapng](./random_requests/random_requests.pcapng)
   
 </details>
 
@@ -294,7 +294,7 @@ Cache   FileObject      FileName        Result
 DataSectionObject       0xa08f6ca23200  imageception.png        Error dumping file
 ```
 
-Got the dump result in `.dat` file just change into `.png` extension, and we got the flag [imageception.png](./imageception.png)
+Got the dump result in `.dat` file just change into `.png` extension, and we got the flag [imageception.png](./imageception/imageception.png)
 ```bash
 $ mv file.0xa08f6ca23200.0xa08f6c9d1350.DataSectionObject.imageception.png.dat imageception.png
 ```
