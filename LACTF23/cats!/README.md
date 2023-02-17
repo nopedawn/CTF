@@ -158,6 +158,6 @@ Then you can just googling it, got the domain for a flag is `lanaicatsanctuary.o
 <details>
   <summary>FLAG</summary>
   
-  `lactf{lanaicatsanctuary.org}`
+  > `lactf{lanaicatsanctuary.org}`
   
 </details>
