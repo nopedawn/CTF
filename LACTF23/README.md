@@ -24,3 +24,4 @@ https://ctftime.org/event/1732
 | Category     | Challenge |
 | ------------ | --------- |
 | MISC | [ebe](https://github.com/nopedawn/CTF/tree/main/LACTF23/ebe/#miscebe)
+| CRYPTOGRAPHY | [rolling-in-the-mud](https://github.com/nopedawn/CTF/tree/main/LACTF23/rolling-in-the-mud/#cryptorolling-in-the-mud)
