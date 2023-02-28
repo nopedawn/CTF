@@ -19,6 +19,7 @@ https://www.its-ara.com/public/
 </details>
 
 ### Challs
-| Category  | Challenge |
-| --------- | --------- |
-| Forensics | [Thinker](https://github.com/nopedawn/CTF/tree/main/ARACTF23/Thinker/#Thinker)
+| Category     | Challenge |
+| ------------ | --------- |
+| Forensics    | [Thinker](https://github.com/nopedawn/CTF/tree/main/ARACTF23/Thinker/#Thinker)
+| Cryptography | [One Time Password](https://github.com/nopedawn/CTF/tree/main/ARACTF23/One_Time_Password#one-time-password)
