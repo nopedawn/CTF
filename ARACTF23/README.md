@@ -23,3 +23,4 @@ https://www.its-ara.com/public/
 | ------------ | --------- |
 | Forensics    | [Thinker](https://github.com/nopedawn/CTF/tree/main/ARACTF23/Thinker/#Thinker)
 | Cryptography | [One Time Password](https://github.com/nopedawn/CTF/tree/main/ARACTF23/One_Time_Password#one-time-password)
+| Cryptography | [Secret Behind a Letter](https://github.com/nopedawn/CTF/tree/main/ARACTF23/Secret_Behind_a_Letter#secret-behind-a-letter)
