@@ -27,3 +27,4 @@ https://www.its-ara.com/public/
 | Cryptography | [L0v32x0r](https://github.com/nopedawn/CTF/tree/main/ARACTF23/L0v32x0r#l0v32x0r)
 | Cryptography | [SH4-32](https://github.com/nopedawn/CTF/tree/main/ARACTF23/SH4-32#sh4-32)
 | Cryptography | [babychall](https://github.com/nopedawn/CTF/tree/main/ARACTF23/babychall#babychall)
+| Misc         | [Truth](https://github.com/nopedawn/CTF/tree/main/ARACTF23/Truth#truth)
