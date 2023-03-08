@@ -1,10 +1,12 @@
-ciphertext = "001300737173723a70321e3971331e352975351e247574387e3c"
-key = 65
+encrypted_text = "001300737173723a70321e3971331e352975351e247574387e3c"
+encrypted_bytes = bytes.fromhex(encrypted_text)
 
-ciphertext_bytes = bytes.fromhex(ciphertext)
-
-plaintext_bytes = bytes([b ^ key for b in ciphertext_bytes])
-
-plaintext = plaintext_bytes.decode()
-
-print(plaintext)
+for key in range(256):
+    decrypted_bytes = bytes([b ^ key for b in encrypted_bytes])
+    try:
+        decrypted_text = decrypted_bytes.decode('utf-8')
+    except UnicodeDecodeError:
+        continue
+        
+    if "ARA2023" in decrypted_text:
+        print(f"Key: {key}\nDecrypted text: {decrypted_text}")
