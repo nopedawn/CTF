@@ -3,5 +3,9 @@ encrypted_bytes = bytes.fromhex(encrypted_text)
 
 for key in range(256):
     decrypted_bytes = bytes([b ^ key for b in encrypted_bytes])
-    decrypted_text = decrypted_bytes.decode('utf-8')
+    try:
+        decrypted_text = decrypted_bytes.decode('utf-8')
+    except UnicodeDecodeError:
+        continue
+
     print(f"Key: {key}, Decrypted text: {decrypted_text}")
