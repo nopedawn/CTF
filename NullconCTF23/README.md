@@ -9,6 +9,7 @@ https://ctftime.org/event/1900
 </p>
 
 ### Challs
-| Category     | Challenge |
-| ------------ | --------- |
-| Web          | [zpr](https://github.com/nopedawn/CTF/tree/main/NullconCTF23/zpr#zpr) |
+| Category | Challenge |
+| ---------| --------- |
+| Web      | [reguest](https://github.com/nopedawn/CTF/tree/main/NullconCTF23/reguest#reguest) |
+| Web      | [zpr](https://github.com/nopedawn/CTF/tree/main/NullconCTF23/zpr#zpr) | 
