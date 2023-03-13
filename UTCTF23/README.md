@@ -11,4 +11,4 @@ https://ctftime.org/event/1919
 ### Challs
 | Category  | Challenge |
 | ----------| --------- |
-| Forensics | https://github.com/nopedawn/CTF/tree/main/UTCTF23/Easy_Volatility#easy-volatility |
+| Forensics | ["Easy" Volatility](https://github.com/nopedawn/CTF/tree/main/UTCTF23/Easy_Volatility#easy-volatility) |
