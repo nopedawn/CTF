@@ -17,16 +17,19 @@
 </details>
 
 We need the symbol table for the corresponding kernel.
-As the symbol table in the form of a JSON file is already provided in this challenge, we can simply move it to the directory `/volatility3/symbols`.
 
 ```bash
 $ ls
 debian11.core  debian11.core.zst  debian11_5.10.0-21.json  debian11_5.10.0-21.json.zst
+```
 
+As the symbol table in the form of a JSON file is already provided in this challenge, we can simply move it to the directory `/volatility3/symbols`.
+
+```bash
 $ mv debian11_5.10.0-21.json /home/nopedawn/.local/lib/python3.10/site-packages/volatility3/symbols
 ```
 
-Then, we can recover the bash command history from memory.
+Then, we can continue recover the bash command history from memory.
 
 ```bash
 $ vol -f debian11.core linux.bash
