@@ -9,6 +9,8 @@ https://ctftime.org/event/1919
 </p>
 
 ### Challs
-| Category  | Challenge |
-| ----------| --------- |
-| Forensics | ["Easy" Volatility](https://github.com/nopedawn/CTF/tree/main/UTCTF23/Easy_Volatility#easy-volatility) |
+| Category   | Challenge |
+| -----------| --------- |
+| Forensics  | ["Easy" Volatility](https://github.com/nopedawn/CTF/tree/main/UTCTF23/Easy_Volatility#easy-volatility) |
+| Networking | [A Network Problem - Part 1](https://github.com/nopedawn/CTF/tree/main/UTCTF23/A_Network_Problem#a-network-problem---part-1)
+| Networking | [A Network Problem - Part 2](https://github.com/nopedawn/CTF/tree/main/UTCTF23/A_Network_Problem#a-network-problem---part-2)
