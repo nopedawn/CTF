@@ -9,6 +9,7 @@ https://ctftime.org/event/1963
 </p>
 
 ### Challs
-| Category           | Challenge |
-| -------------------| --------- |
-| Digital Forensics  | [The Cryptic Sound](https://github.com/nopedawn/CTF/tree/main/CyberHavoc23/The_Cryptic_Sound) |
+| Category            | Challenge |
+| --------------------| --------- |
+| Digital Forensics   | [The Cryptic Sound](https://github.com/nopedawn/CTF/tree/main/CyberHavoc23/The_Cryptic_Sound#the-cryptic-sound) |
+| Reverse Engineering | [Start The Dos](https://github.com/nopedawn/CTF/tree/main/CyberHavoc23/Start_The_Dos#start-the-dos) |
