@@ -13,3 +13,4 @@ https://ctftime.org/event/1963
 | --------------------| --------- |
 | Digital Forensics   | [The Cryptic Sound](https://github.com/nopedawn/CTF/tree/main/CyberHavoc23/The_Cryptic_Sound#the-cryptic-sound) |
 | Reverse Engineering | [Start The Dos](https://github.com/nopedawn/CTF/tree/main/CyberHavoc23/Start_The_Dos#start-the-dos) |
+| Cryptography | [The Beginning Of All](https://github.com/nopedawn/CTF/tree/main/CyberHavoc23/The_Beginning_Of_All#the-beginning-of-all) |
