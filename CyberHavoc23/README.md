@@ -14,3 +14,5 @@ https://ctftime.org/event/1963
 | Digital Forensics   | [The Cryptic Sound](https://github.com/nopedawn/CTF/tree/main/CyberHavoc23/The_Cryptic_Sound#the-cryptic-sound) |
 | Reverse Engineering | [Start The Dos](https://github.com/nopedawn/CTF/tree/main/CyberHavoc23/Start_The_Dos#start-the-dos) |
 | Cryptography | [The Beginning Of All](https://github.com/nopedawn/CTF/tree/main/CyberHavoc23/The_Beginning_Of_All#the-beginning-of-all) |
+| Web 3.0 | [Private's been Captured](https://github.com/nopedawn/CTF/tree/main/CyberHavoc23/Web3.0#privates-been-captured) |
+| Web 3.0 | [Permission Denied](https://github.com/nopedawn/CTF/tree/main/CyberHavoc23/Web3.0#permission-denied) |
