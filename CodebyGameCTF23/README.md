@@ -9,6 +9,7 @@ https://ctftime.org/event/1975
 </p>
 
 ### Challs
-| Category            | Challenge |
-| --------------------| --------- |
+| Category       | Challenge |
+| ---------------| --------- |
 | Cryptography   | [RSA 1 Basics](https://github.com/nopedawn/CTF/tree/main/CodebyGameCTF23/RSA1_Basics#rsa-1-basics) |
+| Cryptography   | [Family](https://github.com/nopedawn/CTF/tree/main/CodebyGameCTF23/Family#family) |
