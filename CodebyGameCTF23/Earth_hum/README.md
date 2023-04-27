@@ -9,7 +9,7 @@
   
 </details>
 
-Given a challenge in of a `15:36` minute WAV audio file, first we check the metadata
+Given a challenge of a `15:36` minute WAV audio file, first we check the metadata
 
 ```bash
 $ exiftool earth.wav
