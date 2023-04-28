@@ -15,4 +15,4 @@ https://ctftime.org/event/1975
 | Cryptography   | [Family](https://github.com/nopedawn/CTF/tree/main/CodebyGameCTF23/Family#family) |
 | Steganography  | [Girl with a secret](https://github.com/nopedawn/CTF/tree/main/CodebyGameCTF23/Girl_with_a_secret#girl-with-a-secret) |
 | Steganography  | [Earth hum](https://github.com/nopedawn/CTF/tree/main/CodebyGameCTF23/Earth_hum#earth-hum) |
-| Misc           | [Earth hum](https://github.com/nopedawn/CTF/tree/main/CodebyGameCTF23/Runes#runes) |
+| Misc           | [Runes](https://github.com/nopedawn/CTF/tree/main/CodebyGameCTF23/Runes#runes) |
