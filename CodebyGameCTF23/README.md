@@ -16,3 +16,4 @@ https://ctftime.org/event/1975
 | Steganography  | [Girl with a secret](https://github.com/nopedawn/CTF/tree/main/CodebyGameCTF23/Girl_with_a_secret#girl-with-a-secret) |
 | Steganography  | [Earth hum](https://github.com/nopedawn/CTF/tree/main/CodebyGameCTF23/Earth_hum#earth-hum) |
 | Misc           | [Runes](https://github.com/nopedawn/CTF/tree/main/CodebyGameCTF23/Runes#runes) |
+| Misc           | [Favorite animated series](https://github.com/nopedawn/CTF/tree/main/CodebyGameCTF23/Favorite_animated_series#favorite-animated-series) |
