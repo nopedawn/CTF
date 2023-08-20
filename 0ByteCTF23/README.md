@@ -18,4 +18,4 @@ https://0bytectf2023-34a6e5d64ade17ef4e51612c50dd72f5.zerobyte.id/
 ### Challs
 | Category             | Challenge |
 | -------------------- | --------- |
-| Digital Forensics    | [Who the Hack?](https://github.com/nopedawn/CTF/tree/main/0ByteCTF23/Who-the-Hack?/#who-the-hack?)
+| Digital Forensics    | [Who the Hack?](https://github.com/nopedawn/CTF/tree/main/0ByteCTF23/Who-the-Hack%3F#who-the-hack)
