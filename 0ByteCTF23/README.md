@@ -11,7 +11,7 @@ https://0bytectf2023-34a6e5d64ade17ef4e51612c50dd72f5.zerobyte.id/
 <details>
   <summary><h3>Description</h3></summary>
   
-  Writeup for this local CTF competition organized by [ZeroByte.ID](https://zerobyte.id/) Event Organizer in 2023 is conducted as a solo participant.
+  Writeup for this local CTF competition organized by [ZeroByte.ID](https://zerobyte.id/) Event Organizer in 2023 is conducted as a solo for all the participant.
   
 </details>
 
