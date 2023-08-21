@@ -25,7 +25,7 @@ Lalu kami coba lakukan exploitasi pada inputnya, setelah saya menginputkan basic
 
 ![4](img/4.png)
 
-Berikut adalah link repo segala payload yang kami gunakan untuk melakukan bypass filters https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server
+Berikut adalah link repo segala payload yang kami gunakan untuk melakukan bypass filters https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Template%20Injection#jinja2
 
 ![5](img/5.png)
 
