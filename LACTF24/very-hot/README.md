@@ -44,7 +44,7 @@ The provided Python script is implementing a basic RSA encryption scheme with a 
 
 
 `solver.py` <br>
-```
+```py
 from sympy import nextprime, root
 from Crypto.Util.number import long_to_bytes
 
