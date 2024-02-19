@@ -3,8 +3,8 @@
 <details>
   <summary>Description</summary>
   
-  > Author: Red Guy
-  > I didn't think that using two primes for my RSA was sexy enough, so I used three. <br> 
+  > Author: Red Guy <br>
+  > I didn't think that using two primes for my RSA was sexy enough, so I used three.
   
   [src.py](src.py) <br>
   [out.txt](out.txt)
