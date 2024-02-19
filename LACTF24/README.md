@@ -14,6 +14,6 @@ https://ctftime.org/event/2102
 
 | Category            | Challenge |
 | ------------------- | --------- |
-| CRYPTOGRAPHY        | [very-hot](https://nopedawn.github.io/CTF/LACTF24/very-hot/#very-hot)
-| REVERSE ENGINEERING | [shattered-memories](https://nopedawn.github.io/CTF/LACTF24/shattered-memories#shattered-memories)
-| REVERSE ENGINEERING | [aplet321](https://nopedawn.github.io/CTF/LACTF24/aplet321#aplet321)
+| CRYPTOGRAPHY        | [very-hot](very-hot/#very-hot)
+| REVERSE ENGINEERING | [shattered-memories](shattered-memories#shattered-memories)
+| REVERSE ENGINEERING | [aplet321](aplet321#aplet321)
