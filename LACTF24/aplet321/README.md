@@ -61,7 +61,7 @@ undefined8 main(void)
 }
 ```
 
-It first prints a greeting message, then reads a line of input from the user. If the input length is more than 5 characters, it checks for the occurrence of the words `pretty` and `please` in the input. If the word `please` is found, it further checks for the word `flag`. If `flag` is also found and the sum of the occurrences of `pretty` and `please` equals 54 (`0x36` in hexadecimal) and the difference between the occurrences of `pretty` and `please` equals -24 (`-0x18` in hexadecimal), it prints a message and executes the command `cat flag.txt`. If these conditions are not met, it prints a refusal message. If the input length is 5 characters or less, it prints a message indicating that the user is being rude. The function returns 0 before it ends.
+It first prints a greeting message, then reads a line of input from the user. If the input length is more than 5 characters, it checks for the occurrence of the words "pretty" and "please" in the input. If the word "please" is found, it further checks for the word "flag". If "flag" is also found and the sum of the occurrences of "pretty" and "please" equals 54 (`0x36` in hexadecimal) and the difference between the occurrences of "pretty" and "please" equals -24 (`-0x18` in hexadecimal), it prints a message and executes the command `cat flag.txt`. If these conditions are not met, it prints a refusal message. If the input length is 5 characters or less, it prints a message indicating that the user is being rude. The function returns 0 before it ends.
 
 
 `solver.py` <br>
@@ -91,7 +91,7 @@ if __name__ == "__main__":
 ```
 
 
-In order to exploit. The payload consists of the word `please` repeated 39 times, `pretty` repeated 15 times, and `flag`. This payload is designed to satisfy the conditions in the C program for printing the flag: the sum of the occurrences of `pretty` and `please` equals 54 (0x36 in hexadecimal) and the difference between the occurrences of `pretty` and `please` equals -24 (-0x18 in hexadecimal). After sending the payload
+In order to exploit. The payload consists of the word "please" repeated 39 times, "pretty" repeated 15 times, and "flag". The sum of the occurrences of "pretty" and "please" equals 54 (`0x36` in hexadecimal) and the difference between the occurrences of "pretty" and "please" equals -24 (`-0x18` in hexadecimal). After sending the payload.
 
 ```bash
 $ python3 solver.py
