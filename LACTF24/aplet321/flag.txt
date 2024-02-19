@@ -1,0 +1,10 @@
+[x] Opening connection to chall.lac.tf on port 31321
+[x] Opening connection to chall.lac.tf on port 31321: Trying 34.168.14.224
+[+] Opening connection to chall.lac.tf on port 31321: Done
+[x] Receiving all data
+[x] Receiving all data: 0B
+[x] Receiving all data: 1B
+[x] Receiving all data: 74B
+[+] Receiving all data: Done (74B)
+[*] Closed connection to chall.lac.tf port 31321
+b"\nok here's your flag\nlactf{next_year_i'll_make_aplet456_hqp3c1a7bip5bmnc}\n"

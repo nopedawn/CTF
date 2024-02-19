@@ -9,9 +9,9 @@
   [shattered-memories](shattered-memories) <br>
 </details>
 
-Provided binary file `shattered-memories`
+Provided executable binary file  `./shattered-memories`
 
-And here's the decompiled for the main function
+And here's the decompiled of the main function
 
 ```c
 undefined8 main(void)
