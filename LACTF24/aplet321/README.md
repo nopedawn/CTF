@@ -119,6 +119,6 @@ $
 <details>
   <summary>FLAG</summary>
   
-  > `lactf{not_what_forgive_and_forget_means}`
+  > `lactf{next_year_i'll_make_aplet456_hqp3c1a7bip5bmnc}`
     
 </details>
