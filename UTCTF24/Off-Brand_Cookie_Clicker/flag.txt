@@ -1,0 +1,1 @@
+{'flag': 'Wow, you beat me. Congrats! utflag{y0u_cl1ck_pr3tty_f4st}'}

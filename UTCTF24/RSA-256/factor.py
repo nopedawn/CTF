@@ -1,0 +1,11 @@
+# DONT RUN THE SCRIPT! IT WILL TAKE A LONG TIME
+
+from sympy import factorint
+
+# given value
+N = 77483692467084448965814418730866278616923517800664484047176015901835675610073
+
+# factorize N
+factors = factorint(N)
+
+print(factors)
