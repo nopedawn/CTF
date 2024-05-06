@@ -1,0 +1,11 @@
+This is 4 challenges in one file! That is, there are 4 flags,
+coresponding to:
+
+sgai-1
+sgai-2
+sgai-3
+sgai-4
+
+If you find a flag and it doesn't work against one of these you'll
+need to try it in the others. There are no 'decoy' flags so if you
+find a flag it definitely is correct for one of them.
