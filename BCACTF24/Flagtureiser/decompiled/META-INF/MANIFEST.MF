@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: generated-7e687c
+Implementation-Version: 4.2.0.6.9
+Specification-Vendor: Joshua Peisach
+Specification-Title: flagtureiser
+Implementation-Timestamp: 2024-06-07T15:05:26+0000
+Specification-Version: 1
+Implementation-Vendor: Joshua Peisach
+
