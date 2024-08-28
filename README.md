@@ -18,6 +18,7 @@ ctf challenges archives
 | WolvCTF24     | [Link](WolvCTF24)     |
 | angstromCTF24 | [Link](angstromCTF24) |
 | squ1rrelCTF24 | [Link](squ1rrelCTF24) |
+| ImaginaryCTF24 | [Link](ImaginaryCTF24) |
 
 
 # List CTF's (2023)
