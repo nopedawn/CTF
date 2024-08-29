@@ -19,6 +19,7 @@ ctf challenges archives
 | angstromCTF24 | [Link](angstromCTF24) |
 | squ1rrelCTF24 | [Link](squ1rrelCTF24) |
 | ImaginaryCTF24 | [Link](ImaginaryCTF24) |
+| GEMASTIK-XVII-2024 | [Link](GEMASTIK-XVII-2024/qual/WU_GEMASTIK24-1355758728_TigaHackerBaikdanRajinMenabung.pdf)
 
 
 # List CTF's (2023)
