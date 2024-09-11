@@ -1,0 +1,13 @@
+[x] Opening connection to 188.166.247.108 on port 7043
+[x] Opening connection to 188.166.247.108 on port 7043: Trying 188.166.247.108
+[+] Opening connection to 188.166.247.108 on port 7043: Done
+0.0003814697265625
+Found
+97
+03a1d0fcf2ec9de675b612136e5ce70d271c21417c9d2b8aaaac138599d0717940
+Found
+166
+02a5822bd06c673e21b41f30c4efd7c49109f00c12cdc12c5156835fe50c9d3205
+Getting the flag
+b"b'WRECKIT50{Y34h_y0uu_kN00w1n9_d3terM1n15ttik_NOWW}'\n"
+[*] Closed connection to 188.166.247.108 port 7043
