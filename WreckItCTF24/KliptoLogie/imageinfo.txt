@@ -1,0 +1,18 @@
+$ volatility -f memdump.mem imageinfo
+Volatility Foundation Volatility Framework 2.6.1
+INFO    : volatility.debug    : Determining profile based on KDBG search...
+          Suggested Profile(s) : Win10x64_19041
+                     AS Layer1 : SkipDuplicatesAMD64PagedMemory (Kernel AS)
+                     AS Layer2 : FileAddressSpace (/home/nopedawn/CCUG/WreckIT24/KliptoLogie/exported/Documents/memdump.mem)
+                      PAE type : No PAE
+                           DTB : 0x1aa000L
+                          KDBG : 0xf8066700db20L
+          Number of Processors : 4
+     Image Type (Service Pack) : 0
+                KPCR for CPU 0 : 0xfffff80665319000L
+                KPCR for CPU 1 : 0xffff9980bffe0000L
+                KPCR for CPU 2 : 0xffff9980bf9e5000L
+                KPCR for CPU 3 : 0xffff9980bfd65000L
+             KUSER_SHARED_DATA : 0xfffff78000000000L
+           Image date and time : 2024-07-22 14:12:49 UTC+0000
+     Image local date and time : 2024-07-22 21:12:49 +0700
