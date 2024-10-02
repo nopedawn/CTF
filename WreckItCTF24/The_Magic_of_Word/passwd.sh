@@ -1,0 +1,1 @@
+john --show securezip.hash
