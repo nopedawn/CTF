@@ -21,6 +21,7 @@ ctf challenges archives
 | ImaginaryCTF24 | [Link](ImaginaryCTF24) |
 | GEMASTIK-XVII-2024 | [Link](GEMASTIK-XVII-2024/qual/WU_GEMASTIK24-1355758728_TigaHackerBaikdanRajinMenabung.pdf)
 | NCW CTF 2024 | [Link](NCWCTF24/qual/WU_NCW%20CTF%202024_Tiga%20Hacker%20Menabung%20dan%20Rajin%20Membaik.pdf)
+| Hology 7.0 CTF 2024 | [Link](Hology7.0CTF24/qual/HEY%20BUNG%20HARI%20YANG%20CERAH_PenyisihanCTF_Hology7.pdf)
 
 
 # List CTF's (2023)
